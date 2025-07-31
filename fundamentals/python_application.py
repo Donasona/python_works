@@ -1,0 +1,7 @@
+print("I am dona paul")
+print("i am from palakkad")
+print("Today i am going to discuss about the topic python features")
+print("simple and easy to learn")
+print("open source")
+print("object oriented ")
+print("interpreted language")
