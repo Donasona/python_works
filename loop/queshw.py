@@ -96,5 +96,6 @@
 
 #   Use a while loop to print the first n prime numbers.
 
-num=int(input("enter the number:"))
+num1=int(input("enter the number:"))
+num2=int(input("enter the number:"))
 
