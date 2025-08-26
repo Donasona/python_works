@@ -39,15 +39,15 @@
 # wrdst2=sorted(word2)
 # print(wrdst1==wrdst2)
 
-# word1="bcad"
-# word2="abcd"
-# word1_sorted=list(word1)
-# word1_sorted.sort()
-# print(word1_sorted)
-# word2_sorted=list(word2)
-# word2_sorted.sort()
-# print(word2_sorted)
-# print(word2_sorted==word1_sorted)
+word1="bcad"
+word2="abcd"
+word1_sorted=list(word1)
+word1_sorted.sort()
+print(word1_sorted)
+word2_sorted=list(word2)
+word2_sorted.sort()
+print(word2_sorted)
+print(word2_sorted==word1_sorted)
 
 source_word="chicken"
 target_word="hen"

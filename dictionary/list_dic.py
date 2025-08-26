@@ -10,8 +10,8 @@
 #     square_dict.update({num:num**2})
 # print(square_dict)
 
-text="goodmorning"
-count={}
+# text="goodmorning"
+# count={}
 # for ch in text:
 #     if ch in count:
 #         count[ch]+=1
@@ -23,18 +23,28 @@ count={}
 #     count[ch]=text.count(ch)
 # print(count)
 
-set_text=set(text)
-print(set_text)
-for ch in set_text:
-    count_ch=text.count(ch)
-    count[ch]=count_ch
-print(count)    
-# print(max(char_count)) alphabeticaly greater number eduth tharum
-max_frequency=0
-max_frequency_dic={}#d:1 #o:3
-for k,v in count.items():#:k=o v=3
-    if v > max_frequency:#3>1
-        max_frequency=v#3
-        max_frequency_dic.clear()
-        max_frequency_dic[k]=v
-print(max_frequency_dic)
+# set_text=set(text)
+# print(set_text)
+# for ch in set_text:
+#     count_ch=text.count(ch)
+#     count[ch]=count_ch
+# print(count)    
+# # print(max(char_count)) alphabeticaly greater number eduth tharum
+# max_frequency=0
+# max_frequency_dic={}#d:1 #o:3
+# for k,v in count.items():#:k=o v=3
+#     if v > max_frequency:#3>1
+#         max_frequency=v#3
+#         max_frequency_dic.clear()
+#         max_frequency_dic[k]=v
+# print(max_frequency_dic)
+
+s="banana"
+freq={}
+for ch in s:
+    if ch in freq:
+        freq[ch]+=1
+    else:
+        freq[ch]=1
+for k in freq:
+    print(k,":",freq[k])                

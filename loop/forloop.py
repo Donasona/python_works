@@ -13,20 +13,13 @@
 # prime number
 
 # num=int(input("enter the number:"))
-# for i in range(2,num):
-#     if num%i==0:
-#         print("not prime number")
-#     else:
-#         print("prime number")
-
-# num=int(input("enter the number:"))
 # is_prime=True
 # for i in range(2,num):
 #     if num%i==0:
 #         is_prime=False
 #         break
-#     result="prime number" if is_prime==True else "not prime"
-#     print(result)
+    # result="prime number" if is_prime==True else "not prime"
+    # print(result)
 # if is_prime==True:
 #     print("number is prime number") 
 # else:   
@@ -88,15 +81,15 @@
 
 #  Input a number. Reverse it using a for loop and arithmetic (e.g., 123 -> 321)
 
-# num=int(input("enter the number:"))
-# reverse=0
-# for i in str(num):
-#     digit=num%10
-#     reverse=reverse*10+digit
-#     num=num//10
-#     if num<0:
-#         reverse=-reverse
-# print("reversed number:",reverse)        
+num=int(input("enter the number:"))
+reverse=0
+for i in str(num):
+    digit=num%10
+    reverse=reverse*10+digit
+    num=num//10
+    if num<0:
+        reverse=-reverse
+print("reversed number:",reverse)        
 
 #  Input a 3-digit number. Check if it is an Armstrong number using a for loop.
 
